@@ -233,6 +233,13 @@ background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
    font-size: 30px;
 
   }
+  
+  #submit1,#btn1{
+   background:none;
+   border:1px solid black;
+  }
+  
+
 /*PARALLAX STYLES*/
   #parallax1 {
    

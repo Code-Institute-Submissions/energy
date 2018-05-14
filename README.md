@@ -6,14 +6,15 @@ The goal for this project was to create a website highlighting renewable energy 
 
 
 ## Built With
+* Flask
 
-
-
-## Hosts
 
 
 ## Notes
+* Development of the project mostly took place in several other workspaces so it is lacking in a complete commit history. 
+
+* The decision was made to keep the navbar collapsed for all screen sizes as it best suites the aesthetic of the site.
 
 
 
-## Acknowledgments
+
