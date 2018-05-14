@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Energy of the Future</title>
+ <!--STYLESHEETS-->
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+ <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Bevan|Varela" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+ <!--SCRIPTS-->
+ <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script src="/static/js/quiz.js"></script>
+ <script src="/static/js/timeline.js"></script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container-fluid">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+
+       </button>
+
+     </div>
+
+
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav  nav-stacked navbackground">
+
+         <li><a href="#">Current</a></li>
+         <li><a href="#">Sources</a></li>
+         <li><a href="#">Storage and Delivery</a></li>
+         <li><a href="#">Efficiency</a></li>
+         <li><a href="#">Get Involved</a></li>
+
+       </ul>
+
+
+
+     </div>
+   </div>
+ </nav>   
+ <!--HEADER-->
+ <header class="row headertext" id="title">
+  <div class="col-md-12">
+   <h1>Energy</h1>
+   <h2>of the </h2>
+   <h1>Future</h1>
+   <h2>(Where we are....and where we should be going next)</h2>
+
+  </div>
+
+ </header>
+ <!--PARALLAX IMAGE 1-->
+  <div class="row">
+   <div class="col-sm-12" id="parallax1" role="img" aria-label="Gas Flare">
+
+    <div class="row">
+     <div class="col-sm-3" id="parallaxquote1">
+      <blockquote>
+       <p>The clear and present danger of climate change means we cannot burn our way to prosperity. We already rely too heavily on fossil fuels. We need to find a new, sustainable path to the future we want. We need a clean industrial revolution.</p>
+       <footer>Ban-Ki Moon</footer>
+      </blockquote>
+     </div>
+    </div>
+
+   </div>
+  </div>
+
+ <div class="container">
+  <div class="content">
+   
+   <div class="row text">
+    <div class="col-sm-12">
+     <p class="section_header">1.Current</p>
+    </div>
+   </div>
+
+
+
+
+   <div class="row text">
+    <div class="col-sm-12">
+     <p class="current1">Our Energy Consumption is Growing.......</p>
+     <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://data.worldbank.org/share/widget?end=2014&indicators=EG.USE.ELEC.KH.PC&start=1960&view=chart" width='450' height='300' frameBorder='0' scrolling="no"></iframe>
+
+     </div>
+     <p class="current1">And Fossils Fuels Are Still Our Main Fuel Source</p>
+     <img src="/static/images/fossilfuelpercent.jpeg" class="img-responsive" alt="%fossil fuels chart"></img>
+     <p class="caption">From World Energy Resources Report 2016</p>
+     <p class="current1">The fossil fuel industry is the most well developed energy industry globally.They are still a cheap, relatively abundant and reliable source of energy....</p>
+     <p class="current1">But they are doing lasting, serious harm to our planet</p>
+    
+     <div class="row">
+      <div class=col-md-3>
+       <p>Oil</p>
+      </div>
+     </div>
+     <div class="row">
+
+      <div class=col-md-3>
+       <img src="/static/images/overcastrig.jpg" class="factoid_image img-responsive" alt="overcast sky rig">
+
+
+      </div>
+      <div class=col-md-6>
+      <ul>
+       <li>
+        Oil spills, while rare do lasting damage to the ocean and coastline and the plants and animals that rely on them. 
+       </li>
+       <li>
+        Burning oil releases carbon emissions which contribute to the greenhouse effect.
+       </li>
+        <li>
+      Drilling for oil damages the environment
+       </li>
+      </ul>
+      </div>
+     </div>
+     <div class="row">
+      <div class=col-md-3>
+       <p>Coal</p>
+      </div>
+     </div>
+     
+     <div class="row">
+
+      <div class=col-md-3>
+       <img src="/static/images/coalplantovercast.jpg" class="factoid_image img-responsive" alt="overcast sky coal plant">
+
+      </div>
+      <div class=col-md-6>
+      <ul>
+       <li>
+        Coal mining destroys the landscape and can lead to health problems for workers
+       </li>
+       <li>
+        The production process uses a large amount of water
+       </li>
+        <li>
+      Burning coal releases harmful greenhouse gases
+       </li>
+      </ul>
+      </div>
+     </div>
+     <div class="row">
+      <div class=col-md-3>
+       <p>Natural Gas</p>
+      </div>
+     </div>
+     <div class="row">
+
+      <div class=col-md-3>
+       <img src="/static/images/gasflareovercast.jpeg" class="factoid_image img-responsive" alt="overcast sky gas flare">
+
+      </div>
+      <div class=col-md-6>
+      <ul>
+       <li>
+       Although cleaner than the other fossil fuels burning natural gas still releases carbon into the atmosphere.
+       </li>
+       <li>
+       Natural gas is naturally odourless and there is a risk of dangerous leaks that can lead to fires and explosions. 
+       </li>
+        
+      </ul>
+
+      </div>
+     </div>
+     
+    <!--INTERACTIVE 1-->
+     <div class="row">
+                <div class="col-sm-12">
+                    <div id="interactive1" class="interactives">Did You Know?.....</div>
+                    <div id="panel1" class="panels">
+                        <p>What is the question question question??????!</p>
+                        <form>
+                            <input type="radio" name="answerq1" id="answer1" />The answer is answer1<br/>
+                            <input type="radio" name="answerq1" id="answer2" />The answer is answer2<br/>
+                            <input type="radio" name="answerq1" id="answer3" />The answer is answer3<br/>
+                            <input type="button" id="submit1" value="Submit">
+                        </form>
+                        <p id="result1"></p>
+                        <button id="btn1">close</button></div>
+                </div>
+            </div>
+    </div>
+   </div>
+   
+   
+  </div>
+  </div>
+   <div class="row">
+   <div class="col-sm-12" id="parallax2" role="img" aria-label="Wind Turbine">
+
+    <div class="row">
+     <div class="col-sm-3" id="parallaxquote2">
+      <blockquote>
+       <p>The answer is to end our reliance on carbon-based fuels...
+If we succeed, we create booming new industries, wealth, clean secure energy and maybe we prevent the greatest disaster so far in human history, saving millions of lives while improving billions more. If we fail, basically it's business as usual while things slowly get worse all around us.</p>
+       <footer>Al Gore</footer>
+      </blockquote>
+     </div>
+    </div>
+
+   </div>
+  </div>
+ <div class="container">
+  <div class="content">
+   
+   <div class="row text">
+    <div class="col-sm-12">
+     <p class="section_header">2.Sources of the Future</p>
+    </div>
+   </div>
+   <div class="row">
+                <div class="col-sm-6">
+                    <h4>Solar</h4>
+
+                    <p>Solar energy uses photovoltaic (PV) panels to capture energy from photons released by the sun. These PV panels have solar cells most commonly made of positive and negative layers silicon with have conductors attached to them. When the photons hit the cells they absorb some of the energy which knocks free electrons and forms a circuit which generates electricity.   </p>
+                    <img src="/static/images/solarcell.png" class="img-responsive" alt="solar cell">
+
+                </div>
+                <div class="col-sm-6" class="factbox1">
+                      <h4>Key Solar Energy Facts</h4>
+                    <p class="factoid1">Excepting pollution generated during the PV panel manufacturing process, solar power produces no pollution.</p>
+                    <p class="factoid">The cost of solar panels has dropped 80% since 2008 and is expected to keep falling.</p>
+                    <p class="factoid">There are over 57 million sq. miles of land on earth and in order to power the entire earth on solar energy we would need to install solar panels on over 191,00 sq miles.</p>
+
+                </div>
+            </div>
+    <div class="row">
+                <div class="col-sm-12">
+                    <h4> Current Barriers to Large Scale Implementation</h4>
+
+                    <div class="row">
+                    
+                    <div class="col-md-12">
+                    <ul>
+                     <li>Although the price is steadily falling the start-up costs are still relatively high and the time it takes for return on investment is long.</li>
+                     <li>Large battery banks are needed with current battery technology</li>
+                      <li>Current grid technology is not set up to be integrated with solar systems.</li>
+                      <li>Energy generated is weather dependent.</li>
+                     </ul>
+                     </div>
+                    </div>
+                    
+                </div>
+             
+            </div>
+            
+   <div class="row">
+                <div class="col-sm-6">
+                    <h3>Wind</h3>
+                   <h4>How it Works</h4>
+                    <p> Wind energy is generated by wind turbines. The blades of a wind turbine rotate when hit by the wind due to a transfer of kinetic energy from the wind to the blades of the turbine. The lnger the blades and the stronger the wind the more energy will be generated. This kinetic energy is converted into electrical energy by a generator and is then transformed to an appropriate voltage for usage. </p>
+                    <img src="/static/images/turbinedrawing.gif" class="img-responsive" alt="turbine diagram">
+
+                </div>
+                <div class="col-sm-6" class="factbox1">
+                      <h4>Key Wind Energy Facts</h4>
+                    <p class="factoid1">Like solar energy, wind energy produces no pollution during energy generation.</p>
+                    <p class="factoid">A single large wind turbine is enough to power 600 average homes.</p>
+                    <p class="factoid">Wind energy prices have dropped 66% since 2009.</p>
+
+                </div>
+            </div>
+    <div class="row">
+                <div class="col-sm-12">
+                    <h4>Current Barriers to Large Scale Implementation</h4>
+
+                    <div class="row">
+                    
+                    <div class="col-md-12">
+                    <ul>
+                     <li>Set up costs,while they are falling are still quite high </li>
+                     <li>Large battery banks are needed with current battery technology</li>
+                      <li>Efficiency of wind turbines is still only around 60%</li>
+                      <li>Energy generated is weather dependent.</li>
+                     </ul>
+                     </div>
+                    </div>
+                    
+                </div>
+             
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h4> Renewables Success Story:Germany</h4>
+
+                    
+                    
+                    <img src="/static/images/germany_renewable.jpg" class="img-responsive" alt="solar panels and wind turbines in German field.">
+                    
+                    
+                     
+                   
+                    
+                </div>
+                <div class="col-md-12">
+                     <p>In 2000, the German government passed the Renewable Energy Law or Energiewende.When they passed the law, Germany was getting 7% of its electricity from renewable sources. Today, with an increase in overall energy generated, Germany gets ~34% of its electricity from renewable energy.They have the world's largest wind power sector and the worlds second largest solar power market.  The success in Germany shows the importance of good policy as the law allowed for guaranteed access to the grid for renewable energy producers and introduced tarrifs which helped to subsidize the market.  </p>
+                    </div>
+             
+            </div>
+  </div>
+  </div>
+    <div class="row">
+   <div class="col-sm-12" id="parallax3" role="img" aria-label="Smart Grid Illustration">
+
+    <div class="row">
+     <div class="col-sm-3" id="parallaxquote3">
+      <blockquote>
+       <p>“To meet the energy challenge and create a 21st century energy economy, we need a 21st century electric grid.” </p>
+       <footer>U.S. Energy Secretary Dr. Steven Chu</footer>
+      </blockquote>
+     </div>
+    </div>
+
+   </div>
+  </div>
+   <div class="container">
+  <div class="content">
+   
+   <div class="row text">
+    <div class="col-sm-12">
+     <p class="section_header">3.Storage and Delivery</p>
+    </div>
+   </div>
+   <div class="row">
+    
+                <div class="col-sm-12">
+                    <h4>Better Batteries</h4>
+                     <h4>A Brief History Of Battery Technology</h4>
+                    
+                    <div class="yearpick"><span class="pickyear" id="yp1780">1780</span><span class="pickyear"id="yp1800">1800</span><span class="pickyear"id="yp1859">1859</span><span class="pickyear"id="yp1868">1868</span><span class="pickyear"id="yp1899">1899</span><span class="pickyear"id="yp1900">1900</span><span class="pickyear"id="yp1992">1992</span></div>
+                </div>
+                
+            </div>
+             <div class="row">
+               <div class="col-sm-12 historyfacts" id="yintro">
+                 <p>Click through the years to read the major milestones in battery development.</p>
+                </div>
+              
+              
+              <div class="col-sm-12 historyfacts" id="y1780">
+                <div class="col-sm-3">
+                 <img src="/static/images/galvini.jpg" class="img-responsive" alt="Potrait of Galvini">  
+                </div>
+                <div class="col-sm-9">
+                 In 1780, while cutting a frog leg Luigi Aloisio Galvani, an Italian scientist discovered that an electric spark caused the leg to twitch.He thought he was observing a kind of "animal electricity" but it was later discovered by Alessandro Volta that this was the result of the interaction between his steel scalpel and a brass hook.     
+                </div>
+                </div>
+                
+                
+              <div class="col-sm-12 historyfacts" id="y1800">
+                <div class="col-sm-3">
+                 <img src="/static/images/volta.jpeg" class="img-responsive" alt="Potrait of Galvini">   
+                </div>
+                <div class="col-sm-9">
+                 Alessandro Volta, an Italian physicist creates the first true battery. This battery was made of stacks of discs of copper and zinc separated by cloth soaked in brine. Water connected each end to produce a stable current.    
+                </div>
+                </div>
+                
+                
+                
+                <div class="col-sm-12 historyfacts" id="y1859">
+                <div class="col-sm-3">
+                 <img src="/static/images/gastonplante.jpg" class="img-responsive" alt="Potrait of Gaston Plante">
+                </div>
+                <div class="col-sm-9">
+                 Raymond Gaston Planté invents the lead acid battery. This is the first rechargable battery and a version of it is still in production today. 
+                </div>
+                </div>
+                
+                
+                
+                <div class="col-sm-12 historyfacts" id="y1868">
+                <div class="col-sm-3">
+                 <img src="/static/images/Leclanche.jpg" class="img-responsive" alt="Potrait of Leclanche">   
+                </div>
+                <div class="col-sm-9">
+                 Georges Leclanché creates the Leclanché cell a precursor to the modern dry cell. The cell was composed of an electrolyte in the form of ammonium chloride a carbon cathode, zinc anode and magnesium dioxide.
+                </div>
+                </div>
+                
+                
+                
+              
+                
+                
+                <div class="col-sm-12 historyfacts" id="y1899">
+                <div class="col-sm-3">
+                 <img src="/static/images/Jungner.png" class="img-responsive" alt="Potrait of Junger">  
+                </div>
+                <div class="col-sm-9">
+                In 1899 Ernst Waldman Junger invented the nickel cadmium battery. This is a rechargable battery that uses nickel oxide hydroxide and metallic cadmium as electrodes.    
+                </div>
+                </div>
+                
+                
+                
+                <div class="col-sm-12 historyfacts" id="y1900">
+                <div class="col-sm-3">
+                 <img src="/static/images/volta.jpeg" class="img-responsive" alt="Potrait of Volta">   
+                </div>
+                <div class="col-sm-9">
+                 Edison invents eletric battery
+                </div>
+               </div>
+               
+                <div class="col-sm-12 historyfacts" id="y1992">
+                <div class="col-sm-3">
+                 <img src="/static/images/volta.jpeg" class="img-responsive" alt="Potrait of Volta">
+                </div>
+                <div class="col-sm-9">
+                 Lithium ion batteries developed
+                </div>
+            </div>
+            </div>
+           
+    <div class="row">
+                <div class="col-sm-12">
+                    <h4>Current Areas of Research</h4>
+
+                    <p>Currently, there is no clear successor to the lithium ion battery and although there have been some small incremental improvements in lithium ion performance in recent years the general consensus is that it is tending towards the limit of what it can do.There are however there are several promising areas of research although they face a number of barriers. One of these is the fact that when it comes to battery development it often seems like improving performance in one metric can lead to a decrease in performance in another.Additionally, as there are many competing areas of research and a limited amount of funding compared to the high cost of development several projects have difficulty getting off the ground in any meaningful way.There are however there areas of development that appear promising in terms of delivery results in the future.</p>
+                    <ol>
+                     <li><div class="row">Hydrogen Fuel Cells</div>
+                     <div class="row"><img src="/static/images/hydrogenfuelcell.jpg" class="img-responsive" alt="Hydrogen Fuel Cell Diagram"></div>
+                     <div class="row">Hydrogen can be produced with wind and solar energy and used to power fuel cells. Fuel cells are a little different from a traditional battery in that as long as there is a constant source of fuel and oxygen they do not need to recharge.</div>
+                     
+                     </li>
+                     <li><div class="row">Lithium-Sulphur</div>
+                     <div class="row"><img src="/static/images/lithiumsulphur.jpg" class="img-responsive" alt="Lithium Sulphur battery diagram"></div>
+                     <div class="row">A lithium sulphur battery could have a capacity of three to five times higher than that of a lithium ion battery. Development is currently trying to combat thehigh risk of electrode breakdown in these types of batteries. </div>
+                     
+                     </li>
+                     <li>
+                      <div class="row">Redox Flow</div>
+                      <div class="row"><img src="/static/images/redoxflow.png" class="img-responsive" alt="Redox Flow Battery"></div>
+                      <div class="row">A promising solution for energy storage at the grid scale.Right now the problems it is trying to overcomefor a more widespread implementation are operating temperature,high cost and low energy density. </div>
+                     </li>
+                    </ol>
+                    
+                </div>
+             
+            </div>
+   <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h4>Smart Grid</h4>
+                    <img src="/static/images/smart_grid.jpg" class="img-responsive" alt="Smart Grid Diagram">
+                    <p>The grid technology used by much of the world today is fundamentally the same as when it was developed.As newer sources of energy are developedand energy demand increases, upgrading grid tech can facilitate uninterupted clean energy and put greater power into the hands of the consumer.So what are the elements of the smart grid? </p>
+                    <div class="row">
+                   
+                     <div class="smart_list">
+                      <div class ="col-sm-3">
+                       <img src="/static/images/meter.png" class="smart_grid_image img-responsive" alt="Electricity Meter">
+                      </div>
+                      <div class="col-sm-9">
+                       Smart power meters will allow for two way communication between big companies,consumers and small-scale combination consumer producers.It will give customers access to all their power data allowing them to have a dynamic relationship with the grid and make informed energy decisions.  
+                      </div>
+                     </div>
+                     
+                     <div class="smart_list">
+                      <div class ="col-sm-3">
+                       <img src="/static/images/svg_smart_grid.jpg" class="smart_grid_image img-responsive" alt="Electric Grid">
+                      </div>
+                      <div class="col-sm-9">
+                       Smart distribution will allow for widespread distributed generation through increased automation,smart sensors and richer data streams and communication. It wil also feature better superconducting cables for improved transmission.
+                      </div>
+                     </div>
+                      <div class="smart_list">
+                      <div class ="col-sm-3">
+                       <img src="/static/images/svg_smart_generation.png" class="smart_grid_image img-responsive" alt="Electric Plug">
+                      </div>
+                      <div class="col-sm-9">
+                       Smart generation uses artificial intelligence and other means to model power generation for optimized efficient performance. It incorporates and processes feedback from multiple points on the grid.
+                      </div>
+                     </div>
+                     <div class="smart_list">
+                      <div class ="col-sm-3">
+                       <img src="/static/images/substation.png" class="smart_grid_image img-responsive" alt="Electric Substation">
+                      </div>
+                      <div class="col-sm-9">
+                       Smart substations are crucial for monitoring operational data adn overall grid performance and allows for any issues to be addressed quickly.
+                      </div>
+                     </div>
+                 
+
+                </div>
+                </div>
+                
+            </div>
+   
+  </div>
+  </div>
+   <div class="row">
+   <div class="col-sm-12" id="parallax4" role="img" aria-label="Lightbulb on green background">
+
+    <div class="row">
+     <div class="col-sm-3" id="parallaxquote4">
+      <blockquote>
+       <p>“"It is critical that the world captures every last bit of energy efficiency, if we are to reduce greenhouse gas emissions enough to keep below dangerous rises in temperature... Now we need more and effective government policies that reward such action and penalize delayed responses."” </p>
+       <footer>Christiana Figueres</footer>
+      </blockquote>
+     </div>
+    </div>
+
+   </div>
+  </div>
+  <div class="container">
+  <div class="content">
+   
+   <div class="row text">
+    <div class="col-sm-12">
+     <p class="section_header">4.Energy Efficiency</p>
+    </div>
+   </div>
+   <div class="row">
+                <div class="col-sm-12">
+                    <h4>What is Energy Efficiency</h4>
+<p>Energy efficiency means using less energy for a particular task. The idea is that lightbulbs, appliances etc can all perform the same tasks,just as well, using less power. This adds savings to the consumer,helps reduce the use of fossil fuels and makes renewable energy sources go further.So how can energy efficiency be effected?It all comes down to forming good policy on building design and management and appliance manufacture.  </p>
+                    
+                </div>
+               
+            </div>
+    <div class="row">
+                <div class="col-sm-12">
+                    <h4>Policy:The Driver Towards Change</h4>
+
+                    <p>Ultimately, for widespread adoption of energy efficient pratices policy will be needed. The International Energy Agency recommends the following 25 policy perscriptions.</p>
+                    <ol>
+                     <li>Energy efficiency data collection and indicators</li>
+                     <li>Strategies and action plans</li>
+                     <li> Competitive energy markets, with appropriate regulation</li>
+                     <li>Private investment in energy efficiency</li>
+                     <li>Monitoring, enforcement and evaluation of policies
+and measures</li>
+                     <li>Mandatory building energy codes and minimum
+energy performance </li>
+                     <li>Aiming for net-zero energy consumption in buildings</li>
+                     <li>Improving the energy efficiency of existing buildings</li>
+                     <li>Building energy labels or certificates </li>
+                     <li>Improved energy performance of building
+components and systems</li>
+                     <li> Mandatory MEPS and labels
+for appliances and equipment</li>
+                     <li>Test standards and measurement protocols
+for appliances and equipment</li>
+                     <li>Market transformation policies
+for appliances and equipment</li>
+                     <li>Phase-out of inefficient lighting products
+and systems</li>
+                     <li>Energy-efficient lighting systems</li>
+                     <li>Mandatory vehicle fuel efficiency standards</li>
+                     <li>Measures to improve vehicle fuel efficiency</li>
+                     <li> Fuel-efficient non-engine components</li>
+                     <li>Improving vehicle operational efficiency through
+eco-driving and other measures</li>
+                     <li>Transport system efficiency</li>
+                     <li>Energy management in industry </li>
+                     <li>High-efficiency industrial equipment and systems</li>
+                     <li>Energy efficiency services for small and
+medium-sized enterprises (SMEs)</li>
+                     <li>Complementary policies to support industrial
+energy efficiency</li>
+                     <li>Energy utilities and end-use energy efficiency</li>
+                     
+                    </ol>
+                </div>
+             
+            </div>
+   
+   
+  </div>
+  </div>
+  <div id="overlay" onclick="off()">
+  <div id="overlay_text">
+   <h4>References</h4>
+  <ol>
+   <li><a href="https://www.iea.org/publications/freepublications/publication/25recom_2011.pdf">25 Energy Efficiency Policy Recommendations</a></li>
+   <li><a href="https://www.enerdata.net/publications/reports-presentations/global-energy-trends-2017.html">2017 Global Energy Trends</a></li>
+   <li><a href="https://www.goodenergy.co.uk/how-do-wind-turbines-work/">How Do Wind Turbines Work</a></li>
+   <li><a href="https://www.e-education.psu.edu/egee102/node/1909">Sources of Energy</a></li>
+   <li><a href="https://www.purdue.edu/discoverypark/energy/research/efficiency/smart-grid/what-is-the-smart-grid.php">What is the Smart Grid</a></li>
+  
+   
+   </ol>
+  </div>
+</div>
+
+
+    <footer class="row" id="absolutefooter" >
+    <div class="col-sm-12">
+   
+  <button onclick="on()" id="view-references">REFERENCES</button>
+</div>
+        
+        
+    <form class="col-sm-12">
+     Sign Up For Our Energy Newsletter!<br>
+  Name:<br>
+  <input type="text" name="Name"><br>
+  Email:<br>
+  <input type="email" name="email"><br><br>
+  <input type="submit" name="submit">
+  
+  
+</form>
+       
+       
+    
+    </footer>
+<script type="text/javascript" src="/javascript/panel.js"></script>
+  <script type="text/javascript" src="/javascript/quiz.js"></script>
+  <script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+    
+    
+    
+    
+    
+    
+}
+
+
+</script>
+</body>
+
+</html>
